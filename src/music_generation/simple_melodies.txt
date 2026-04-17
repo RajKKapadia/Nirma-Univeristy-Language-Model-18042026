@@ -1,0 +1,35 @@
+# Synthetic classroom melodies in symbolic note_duration form.
+# Token format: NOTE_OCTAVE_duration, for example C4_q or REST_e.
+# Durations: w=whole, h=half, q=quarter, e=eighth, s=sixteenth.
+
+C4_q D4_q E4_q C4_q E4_q F4_q G4_h
+G4_q A4_q G4_q F4_q E4_q C4_q D4_h
+C4_q E4_q G4_q C5_q G4_q E4_q C4_h
+E4_q F4_q G4_q A4_q G4_q F4_q E4_h
+C4_q C4_q G4_q G4_q A4_q A4_q G4_h
+F4_q F4_q E4_q E4_q D4_q D4_q C4_h
+C4_e D4_e E4_e F4_e G4_q REST_q G4_q
+G4_q F4_q E4_q D4_q C4_q REST_q C4_h
+C4_q E4_q F4_q G4_q E4_q C4_q REST_h
+A3_q C4_q E4_q A4_q E4_q C4_q A3_h
+D4_q F4_q A4_q D5_q A4_q F4_q D4_h
+G3_q B3_q D4_q G4_q D4_q B3_q G3_h
+C4_q G3_q C4_q E4_q G4_q E4_q C4_h
+C4_q D4_q E4_q F4_q G4_q A4_q B4_q C5_h
+C5_q B4_q A4_q G4_q F4_q E4_q D4_q C4_h
+C4_q REST_q E4_q REST_q G4_q REST_q C5_h
+E4_e G4_e A4_q G4_q E4_q D4_q C4_h
+G4_e A4_e B4_q A4_q G4_q E4_q D4_h
+C4_q D4_e E4_e F4_q E4_q D4_q C4_h
+E4_q G4_e A4_e B4_q A4_q G4_q E4_h
+C4_h G4_h C5_h G4_h
+A3_h E4_h A4_h E4_h
+D4_h A4_h D5_h A4_h
+C4_q F4_q E4_q D4_q C4_q G3_q C4_h
+G3_q C4_q D4_q G4_q F4_q E4_q D4_h
+A3_q D4_q E4_q A4_q G4_q F4_q E4_h
+REST_q C4_q D4_q E4_q REST_q E4_q G4_h
+REST_q G3_q B3_q D4_q REST_q D4_q G4_h
+C4_e E4_e G4_e C5_e B4_e G4_e E4_e C4_e
+D4_e F4_e A4_e D5_e C5_e A4_e F4_e D4_e
+G3_e B3_e D4_e G4_e F4_e D4_e B3_e G3_e
