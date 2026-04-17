@@ -28,6 +28,8 @@ All tracks include dataset exploration, lecture notes, and a side-by-side compar
 
 ## Setup
 
+This project targets Python `3.12.11` (see `.python-version`).
+
 Use the project virtual environment if it already exists:
 
 ```bash
@@ -40,18 +42,32 @@ If you need to create it again with `uv`:
 uv sync
 ```
 
+If you prefer a standard `venv` + `pip` workflow:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
 ## Run
 
-Smoke-check the shared Python module:
+Smoke-check the shared Python module after activating the environment:
 
 ```bash
 python main.py
 ```
 
-Launch Jupyter and open the notebooks from the repository root:
+If you do not want to activate the environment first, run the interpreter directly:
 
 ```bash
-jupyter lab
+.venv/bin/python main.py
+```
+
+Launch Jupyter and open the notebooks from the repository root. JupyterLab is not declared in `pyproject.toml`, so install it separately if your environment does not already provide it:
+
+```bash
+uv run --with jupyterlab jupyter lab
 ```
 
 ## Notes
